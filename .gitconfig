@@ -1,0 +1,11 @@
+[user]
+	name = Quinn Abrams
+	email = qcabrams@gmail.com
+[credential]
+	helper = cache --timeout=86400
+[alias]
+	# taken from garybernhardt/dotfiles/.gitconfig
+	r = !GIT_NO_PAGER=1 git l -30
+    ra = !git r --all
+    l = "!. ~/.githelpers && pretty_git_log"
+	la = !git l --all
